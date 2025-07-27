@@ -1,12 +1,1 @@
-spring:
-    application:
-        name: limstar-config-server
-
-    cloud:
-        config:
-            server:
-                git:
-                    uri: https://github.com/pjlimstars/your-config-repo.git
-                    default-label: main
-                    clone-on-start: true
-                    search-paths: config
+hello: 안녕하세요! Config Server에서 온 설정입니다.
